@@ -1,0 +1,20 @@
+
+h1.title-text {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p.character-text {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 19px;
+}
+
+input.button-text {
+    font-size: 19px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 30px;
+}

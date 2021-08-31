@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Rick and Morty random character generator powered
+        by rickandmortyapi.com">
+        <title>Random Rick and Morty Character | Powered by rickandmortyapi.com </title>
+        <link rel="stylesheet" href="/styles/style.css">
+    </head>
+    <body>
+        <div class="title"> <!-- title -->
+            <h1 class="title-text">Random Rick and Morty Character</h1>
+        </div> <!-- end title -->
+        <div class="character-display"> <!-- character-display -->
+            <p class="character-text"><img id="character-image"></img></p>
+            <p class="character-text" id="character-name"></p>
+            <p class="character-text" id="character-status"></p>
+            <p class="character-text" id="character-species"></p>
+            <p class="character-text" id="character-gender"></p>
+            <p class="character-text" id="character-origin"></p>
+            <p class="character-text" id="character-location"></p>
+            <p class="character-text"><input class="button-text" type="button"
+              value="New Character" onclick="fetchNewCharacter()"/></p>
+        </div> <!-- end character-display -->
+        <script src="/scripts/fetchCharacter.js">
+        </script>
+    </body>
+</html>
